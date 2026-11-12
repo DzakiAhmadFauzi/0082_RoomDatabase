@@ -5,5 +5,7 @@ import androidx.room.Entity
 
 @Entity(tableName = "siswa")
 data class Siswa (
+    @PrimaryKey(autoGenerate = true)
+    val id : Int = 0,
 
 )

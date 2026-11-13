@@ -16,3 +16,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.material.icons.R
 import androidx.navigation.compose.NavHost
 
+@Composable
+fun SiswaApp(navController: NavHostController= rememberNavController()){
+    HostNavigasi(navController = navController)
+}

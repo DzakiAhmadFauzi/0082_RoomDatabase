@@ -4,3 +4,6 @@ import android.app.Application
 import com.example.pertemuan9.repositori.ContainerApp
 import com.example.pertemuan9.repositori.ContainerDataApp
 
+class AplikasiSiswa : Application() {
+
+}

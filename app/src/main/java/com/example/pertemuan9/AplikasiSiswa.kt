@@ -5,5 +5,10 @@ import com.example.pertemuan9.repositori.ContainerApp
 import com.example.pertemuan9.repositori.ContainerDataApp
 
 class AplikasiSiswa : Application() {
+    /**
+     * AppContainer instance digunakan oleh kelas-kelas lainnya untuk mendapatkan dependensi
+     */
+    lateinit var container: ContainerApp
+
 
 }

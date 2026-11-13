@@ -10,3 +10,7 @@ import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.flow.SharingStarted
 import com.example.pertemuan9.room.Siswa
 
+class HomeViewModel(private val repositoriSiswa: RepositoriSiswa):ViewModel() {
+
+
+}

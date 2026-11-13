@@ -7,4 +7,9 @@ import com.example.pertemuan9.AplikasiSiswa
 import androidx.lifecycle.ViewModelProvider
 
 object PenyediaViewModel {
-    val Factory = viewModelFactory
+    val Factory = viewModelFactory {
+
+        initializer {
+            HomeViewModel(aplikasiSiswa().container.repositoriSiswa)
+        }
+

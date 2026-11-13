@@ -6,4 +6,5 @@ import androidx.lifecycle.viewmodel.CreationExtras
 import com.example.pertemuan9.AplikasiSiswa
 import androidx.lifecycle.ViewModelProvider
 
-object PenyediaViewModel
+object PenyediaViewModel {
+    val Factory = viewModelFactory

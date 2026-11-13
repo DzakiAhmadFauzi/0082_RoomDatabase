@@ -7,3 +7,5 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.setValue
 import com.example.pertemuan9.room.Siswa
 
+class EntryViewModel(private val repositoriSiswa: RepositoriSiswa): ViewModel() {
+
